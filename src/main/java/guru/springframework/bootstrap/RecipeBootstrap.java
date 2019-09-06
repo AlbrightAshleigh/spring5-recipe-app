@@ -124,7 +124,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "\n" +
                 "\n" +
                 "Read more: http://www.simplyrecipes.com/recipes/perfect_guacamole/#ixzz4jvoun5ws");
-        guacNotes.setRecipe(guacRecipe);
         guacRecipe.setNotes(guacNotes);
 
         guacRecipe.addIngredient(new Ingredient("ripe avocados", new BigDecimal(2), eachUom));
@@ -171,7 +170,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "\n" +
                 "\n" +
                 "Read more: http://www.simplyrecipes.com/recipes/spicy_grilled_chicken_tacos/#ixzz4jvu7Q0MJ");
-        tacoNotes.setRecipe(tacosRecipe);
         tacosRecipe.setNotes(tacoNotes);
 
 
